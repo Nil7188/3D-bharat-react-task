@@ -162,3 +162,5 @@ Core functionality includes dashboard analytics, investor/deal exploration, filt
 | Recommendations | http://localhost:3000/recommendations |
 | Corporate | http://localhost:3000/corporate |
 
+# Delpyment Link
+https://react-task-qedykcjqg-nil7188s-projects.vercel.app/dashboard
