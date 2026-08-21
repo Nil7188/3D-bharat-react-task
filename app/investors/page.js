@@ -367,6 +367,9 @@ export default function InvestorsPage() {
                 <div
                   key={investor.id}
                   style={styles.card}
+                    className="investor-card"
+
+
                 >
 
                   {/* CARD HEADER */}
@@ -736,3 +739,14 @@ const styles = {
     cursor: "not-allowed",
   },
 };
+
+<style jsx>{`
+  .investor-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .investor-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  }
+`}</style>

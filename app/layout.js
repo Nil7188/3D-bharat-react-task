@@ -1,5 +1,7 @@
 import "./globals.css";
 import Provider from "../components/Provider";
+import Navbar from "../components/Navbar";
+
 
 export const metadata = {
   title: "3D Bharat",
@@ -13,6 +15,8 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Provider>
+                  <Navbar />
+
           {children}
         </Provider>
       </body>
